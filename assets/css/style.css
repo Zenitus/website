@@ -451,12 +451,15 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
-  background: #2487ce;
+  /*color: #fff;*/
+  color: #094E9E;
+  /*background: #2487ce;*/
+  background: #F9A11B;
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  /*background: #3194db;*/
+  background: #F89E1B;
 }
 
 #hero .icon-boxes {
