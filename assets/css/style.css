@@ -429,7 +429,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 72px;
   /*color: #124265;*/
   color: #094E9E;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", FuturaBT-Book;
 }
 
 #hero h2 {
