@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   position: relative;
   /*background: url("../img/hero-bg.jpg") top center;*/
-  background: url("../img/sample2.jpg") top center;
+  background: url("../img/sample1.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -428,15 +428,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  /*color: #124265;*/
-  color: #094E9E;
+  /*color: #124265;*/ 
+  /*Logo Blue*/
+  /*color: #094E9E;*/
+  color: #FFFFFF;
   /*font-family: "Poppins", sans-serif;*/
   font-family: "Poppins", FuturaBT-Book;
 }
 
 #hero h2 {
   /*color: #5e5e5e;*/
-  color: #094E9E;
+   /*Logo Blue*/
+  /*color: #094E9E;*/
+  color: #FFFFFF;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
