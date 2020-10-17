@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero:before {
   content: "";
   /*background: rgba(255, 255, 255, 0.8);*/
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -431,8 +431,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 72px;
   /*color: #124265;*/ 
   /*Logo Blue*/
-  /*color: #094E9E;*/
-  color: #FFFFFF;
+  color: #094E9E;
+  /*color: #FFFFFF;*/
   /*font-family: "Poppins", sans-serif;*/
   font-family: "Poppins", FuturaBT-Book;
 }
@@ -440,8 +440,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   /*color: #5e5e5e;*/
    /*Logo Blue*/
-  /*color: #094E9E;*/
-  color: #FFFFFF;
+  color: #094E9E;
+  /*color: #FFFFFF;*/
   margin: 10px 0 0 0;
   font-size: 22px;
 }
