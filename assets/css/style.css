@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   position: relative;
   /*background: url("../img/hero-bg.jpg") top center;*/
-  background: url("../img/sample1.jpg") top center;
+  background: url("../img/sitebg.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -536,6 +536,61 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+
+/*--------------------------------------------------------------
+# Products Section
+--------------------------------------------------------------*/
+
+
+
+
+#product .icon-box {
+  padding: 30px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+#product .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#product .icon-box .title a {
+  color: #124265;
+  transition: 0.3s;
+}
+
+#product .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+#product .icon-box .icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 36px;
+  line-height: 1;
+  color: #2487ce;
+}
+
+#product .icon-box:hover {
+  transform: scale(1.08);
+}
+
+#product .icon-box:hover .title a {
+  color: #2487ce;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sections General
