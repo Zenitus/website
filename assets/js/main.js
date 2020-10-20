@@ -219,10 +219,17 @@
 })(jQuery);
 
  var scrollclosed;
+ var isMobile;
 
 $(document).ready(function(){
    scrollclosed = false;
+   isMobile = false;
+   
+   if (window.innerWidth < 800){
+    isMobile = true;
+}
 });
+
 
 function closeBanner() {
   document.getElementById("myBanner").style.display = "none";
@@ -231,7 +238,7 @@ function closeBanner() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1000 && scrollclosed == false) {
+  if (y > 1000 && scrollclosed == false && isMobile == false) {
     document.getElementById("myBanner").style.display = "block";
   } else {
     document.getElementById("myBanner").style.display = "none";
