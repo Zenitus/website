@@ -2001,3 +2001,35 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#myModal .box {
+    position:relative;
+}
+
+#myModal .modal-content {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+#myBanner {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: white;
+}
+

@@ -217,3 +217,23 @@
   });
 
 })(jQuery);
+
+ var scrollclosed;
+
+$(document).ready(function(){
+   scrollclosed = false;
+});
+
+function closeBanner() {
+  document.getElementById("myBanner").style.display = "none";
+  scrollclosed = true;
+};
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 1000 && scrollclosed == false) {
+    document.getElementById("myBanner").style.display = "block";
+  } else {
+    document.getElementById("myBanner").style.display = "none";
+  }
+});
